@@ -1,0 +1,156 @@
+.red
+{
+text-align: center;
+font-size: 18px;
+color: #000000;
+}
+body
+{
+ font-family:Constantia;
+ background-color: #FFFFFF;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+}
+
+.refs-container {
+	height:50px;
+	font-weight: bold;
+	background-color: #FFFFFF;
+}
+.refs-container a {
+	color: #000000;
+}
+.ref{
+	display: flex;
+	justify-content: space-around;
+}
+.table
+{
+	text-align: Right;
+	width:100px;
+	height:100px;
+}
+.refs {
+	background-color: #ffb6c1;
+}
+.bg {
+	background-color: #ffb6c1
+}
+.bg p {
+	margin-bottom: 0px;
+}
+.bg hr {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.sub {
+	width: 20%;
+}
+.sub p {
+	text-align: center;
+}
+.all{
+	width: 70%;
+}
+.ce
+{
+text-align: right;
+margin-right: 35px;
+}
+.once
+{
+text-align: left;
+margin-left: 35px;
+}
+.scroll
+{
+text-align: left;
+margin-right: 300px;
+}
+.dad
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 400px;
+}
+.faf
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 280px;
+}
+.footer-bg
+{
+	background: #ffb6c1;
+}
+footer {
+	width: 100%;
+	 display: flex;
+ justify-content: center;
+}
+
+
+
+.wrap{
+width: 100%; 
+height: 50px; 
+margin: 0;
+z-index: 99; 
+position: relative; 
+background-color: #ffb6c1 ;
+}
+.navbar{
+height: 50px;
+padding: 0;
+margin: 0;
+position: absolute; 
+}
+
+.navbar li {
+height: auto;
+width: 184px; 
+float: left;  
+text-align: center; 
+list-style: none;  
+font: normal bold 13px/1em Arial, Verdana, Helvetica;  
+padding: 0;
+margin: 0;
+background-color: #ffb6c1;
+}
+.navbar a{							
+padding: 18px;  
+border-left: 1px solid #000000;
+text-decoration: none; 
+color: #000000; 
+display: block;
+}
+.navbar li:hover, a:hover {
+background-color: #ffb6c1;
+}
+.navbar li ul{
+display: none;
+height: auto;									
+margin: 0; 
+padding: 0; 
+}
+
+.navbar li:hover ul{
+display: block;
+}
+.navbar li ul li{
+background-color: #ffb6c1;
+}
+.navbar li ul li a{
+border-left: 1px solid #ffb6c1; 
+border-right: 1px solid #ffb6c1; 
+border-top: 1px solid #000000; 
+border-bottom: 1px solid #000000; 
+}
+
+.navbar li ul li a:hover{
+background-color:#FFFFFF;
+}
